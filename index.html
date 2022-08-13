@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content1="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content1="ie=edge" />
+    <title>Epic Game</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="css/all.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- MDB -->
+    <link rel="stylesheet" href="css/mdb.min.css" />
+  </head>
+  <body>
+    <!-- Start your project here-->
+<div class="sidebar">
+  <a href="#"><img src="img/logoreal.png" class="img-fluid"></a>
+  <a  href="#home"><i class="fa-solid fa-tag" style="padding-right:10px;"></i>Store</a>
+  <a class="active" href="#news"><i class="fa-brands fa-microsoft"style="padding-right:10px;"></i>Libary</a>
+  <a href="#contact"><img src="img/unrealpng.png" width="20px" height="20px" style="margin-right:4px;">Unreal Engine</a><br>
+  <small>Quick Lunch</small>
+  <br>
+  <div class="quicklunch1"style="margin-bottom:25px;">
+    <img src="img/quicklunch1.jpg" class="py-1" style="margin-left:10px;width:60px;height:70px;border:1px solid #131414;border-radius:15px;float:left;">
+    <span style="color:white;margin-left:5px;">Snowrunner</span><br>
+    <span id="hoverlunch"><i class="fa-solid fa-play px-1" style="font-size:12pt"></i>Lunch</span>      
+  </div>
+    <div class="quicklunch1" style="margin-bottom:20px">
+    <img src="img/game9.jfif" style="float:left;margin-left:10px;width:60px;height:70px;border:1px solid #131414;border-radius:15px;">
+    <span style="color:white;margin-left:5px;">Cyberpunk 2077</span><br>
+    <span id="hoverlunch"><i class="fa-solid fa-play px-1" style="font-size:12pt"></i>Lunch</span>      
+  </div>
+      <div class="quicklunch1">
+    <img src="img/game12.jfif" style="float:left;margin-left:10px;width:60px;height:70px;border:1px solid #131414;border-radius:15px;">
+    <span style="color:white;margin-left:5px;">The Crew2</span><br>
+    <span id="hoverlunch"><i class="fa-solid fa-play px-1" style="font-size:12pt"></i>Lunch</span>      
+  </div>
+</div>
+
+<div class="content">
+  <div id="navbar">
+    <a href="#home" style="float: left;"><i class="fa-solid fa-angle-left"></i></a>
+    <a href="#news" style="float: left;"><input type="text" class="fontAwesome" placeholder="Search Store" value="" name="txtsearch"><i class="fa-solid fa-magnifying-glass" style="margin-left:10px;"></i></a>
+
+    <div class="right-link">
+      <a href="#" style="padding:0">
+      <div class="d-inline-flex position-relative" style="float:right;margin-right:10px;">
+        <span class="position-absolute bottom-0 start-100 translate-middle p-1 bg-success border border-light rounded-circle">
+          <span class="visually-hidden">New alerts</span>
+        </span>
+        <img class="rounded-cricle" src="https://mdbootstrap.com/img/Photos/Avatars/man2.jpg" alt="Avatar" style="width: 55px; height: 55px;border:1px solid black;border-radius:100%;">
+      </div>
+      </a>
+      <a href="#" style="float:right;background-color:#252527;border:5px solid #131414;border-radius:40px;margin-right:8px;"><i class="fa-solid fa-user-group"></i><span>45</span></a>
+      <a href="#" style="float:right;border-right:2px solid #252527;">Cart</a>
+      <a href="#" style="float:right;">Wishlist</a>
+    </div>
+    <!-- As a link -->
+<nav class="navbar navbar-light" style="background-color:#141313;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#" style="color:#141313;">Navbar</a>
+  </div>
+</nav>
+
+<!-- As a heading -->
+<nav class="navbar navbar-light" style="background-color:#141313;">
+  <div class="container">
+    <div class="left-link d-flex align-item-left">
+    <span style="font-size:13pt;color:white;">Sort by:</span>
+    <select style="background-color:#141313;color:white;border:none;">
+      <option>Alphabetical A-Z</option>
+      <option>Alphabetical Z-A</option>
+      <option>Reacently played</option>
+    </select>      
+    </div>
+    <div class="right-link d-flex align-item-right">
+      <i class="fa-brands fa-microsoft" id="secondnavicon"></i>
+      <i class="fa-solid fa-list" id="secondnavicon"></i>
+      <i class="fa-solid fa-recycle" id="secondnavicon" style="font-size:1.5rem;margin-left:25px;color:white;"></i>
+    </div>
+  </div>
+</nav>
+  </div>
+  <div class="rightbar">
+    <p class="text-white" style="font-weight:bold;">Filters</p>
+        <div class="input-group mb-3">
+        <span class="input-group-text" id="basic-addon1" style="background-color:#252527;border:none;border-radius:0;height:2.2rem;"><i class="fa-solid fa-magnifying-glass"></i></span>
+        <input type="text" class="form-control" style="background-color:#252527;border:none;border-radius:0;" placeholder="Title" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <hr class="new1">
+      <p class="text-white px-4">Installed [11]</p>
+      <hr class="new1">
+      <div class="dropdown">
+        <button
+          class="btn form-control"
+          type="button"
+          id="dropdownMenuButton"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Genre <i class="fa-solid fa-angle-down" style="float:right;"></i>
+        </button>
+        <ul class="dropdown-menu bg-dark form-control" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item bg-dark" href="#">Action</a></li>
+          <li><a class="dropdown-item bg-dark" href="#">Another action</a></li>
+          <li><a class="dropdown-item bg-dark" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <hr class="new1">
+<div class="dropdown">
+        <button
+          class="btn form-control"
+          type="button"
+          id="dropdownMenuButton"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Features <i class="fa-solid fa-angle-down" style="float:right;"></i>
+        </button>
+        <ul class="dropdown-menu bg-dark form-control" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item bg-dark" href="#">Action</a></li>
+          <li><a class="dropdown-item bg-dark" href="#">Another action</a></li>
+          <li><a class="dropdown-item bg-dark" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <hr class="new1">
+<div class="dropdown">
+        <button
+          class="btn form-control"
+          type="button"
+          id="dropdownMenuButton"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Types <i class="fa-solid fa-angle-down" style="float:right;"></i>
+        </button>
+        <ul class="dropdown-menu bg-dark form-control" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item bg-dark" href="#">Action</a></li>
+          <li><a class="dropdown-item bg-dark" href="#">Another action</a></li>
+          <li><a class="dropdown-item bg-dark" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <hr class="new1">
+<div class="dropdown">
+        <button
+          class="btn form-control"
+          type="button"
+          id="dropdownMenuButton"
+          data-mdb-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Platform <i class="fa-solid fa-angle-down" style="float:right;"></i>
+        </button>
+        <ul class="dropdown-menu bg-dark form-control" aria-labelledby="dropdownMenuButton">
+          <li><a class="dropdown-item bg-dark" href="#">Action</a></li>
+          <li><a class="dropdown-item bg-dark" href="#">Another action</a></li>
+          <li><a class="dropdown-item bg-dark" href="#">Something else here</a></li>
+        </ul>
+      </div>
+      <hr class="new1">
+  </div>
+  <div class="col-12">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game1.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">A plague Tale..
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a> 
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game2.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">God of War
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12" id="gamecard">
+        <div class="game"   style="background-color:#131414;">
+         <img src="img/game3.png" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">RE: Village
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+          <img src="img/game4.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Spiderman Ps4
+          <i class="fa-solid fa-ellipsis" href="#" type="button"style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+    </div> 
+
+    <div class="row">
+       <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game5.jfif" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Among Us
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a> 
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game6.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Assassin Creed:Vah..
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12" id="gamecard">
+        <div class="game"   style="background-color:#131414;">
+         <img src="img/game7.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Horizon Zero Dawn
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+          <img src="img/game8.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Kena:Bridge of Sprit
+          <i class="fa-solid fa-ellipsis" href="#" type="button"style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+    </div>
+
+        <div class="row">
+       <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game9.jfif" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Cyberpunk 2077
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a> 
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game10.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Farcry 6
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12" id="gamecard">
+        <div class="game"   style="background-color:#131414;">
+         <img src="img/game11.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Witcher 3:Wild Hunt
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+          <img src="img/game12.jfif" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">The Crew-2
+          <i class="fa-solid fa-ellipsis" href="#" type="button"style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+    </div>
+
+<div class="row">
+       <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game13.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">It Takes Two
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a> 
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game14.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Snowrunner
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12" id="gamecard">
+        <div class="game"   style="background-color:#131414;">
+         <img src="img/game15.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Mortal Kombat 11
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+          <img src="img/game16.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Gurdians of Galaxy
+          <i class="fa-solid fa-ellipsis" href="#" type="button"style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+    </div>
+
+<div class="row">
+       <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game17.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">GTA: Trilogy
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a> 
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game18.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">The Medium
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12" id="gamecard">
+        <div class="game"   style="background-color:#131414;">
+         <img src="img/game19.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Final Fantasy VII Re..
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+          <img src="img/game20.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Stray
+          <i class="fa-solid fa-ellipsis" href="#" type="button"style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+    </div>
+
+<div class="row">
+       <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game21.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Gothem Knights
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a> 
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+        <img src="img/game22.jfif" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Call of Duty Mor..
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12" id="gamecard">
+        <div class="game"   style="background-color:#131414;">
+         <img src="img/game23.jfif" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Lego Star War
+          <i class="fa-solid fa-ellipsis" href="#" type="button" style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-sm-12"id="gamecard">
+        <div class="game"  style="background-color:#131414;">
+          <img src="img/game24.jpg" class="img-fluid" style="border:none;">
+        <p class="gamename pt-2">Sekrio
+          <i class="fa-solid fa-ellipsis" href="#" type="button"style="float:right;margin-top:5px;"></i>
+        </p>
+        <a href="#" type="button" style="color:grey;"><small><i class="fa-solid fa-download" style="margin-right:8px;"></i>Install</small></a>
+        </div>
+      </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+  <ul class="pagination" style="justify-content:center;">
+    <p class="text-muted" style="margin-top:5px;">Showing 1-24 of 146</p>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link px-4" href="#">1</a></li>
+    <li class="page-item"><a class="page-link px-4" href="#">2</a></li>
+    <li class="page-item"><a class="page-link px-4" href="#">3</a></li>
+        <li class="page-item"><a class="page-link px-4" href="#">4</a></li>
+            <li class="page-item"><a class="page-link px-4" href="#">5</a></li>
+                <li class="page-item"><a class="page-link px-4" href="#">6</a></li>
+                    <li class="page-item"><a class="page-link px-4" href="#">7</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+      <p class="text-muted" style="margin-top:3px">Grid
+        <select style="background-color:#131414;border:none;color:grey;">
+          <option>24</option>
+          <option>36</option>
+          <option>48</option>
+          <option>All</option>
+        </select>
+      </p>
+  </ul>
+</nav>
+  </div>
+
+</div>
+    <!-- End your project here-->
+
+    <!-- MDB -->
+
+    <script src="https://kit.fontawesome.com/fc880dc20b.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+    <script type="text/javascript">
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+} 
+</script>
+  </body>
+</html>
